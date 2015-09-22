@@ -1,5 +1,6 @@
 FROM cloudbees/java-build-tools
 
+USER root
 ENV HOME /home/jenkins
 RUN useradd -c "Jenkins user" -d $HOME -m jenkins
 
