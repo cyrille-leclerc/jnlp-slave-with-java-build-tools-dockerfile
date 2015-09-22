@@ -1,1 +1,1 @@
-# A Docker image for a jenkins slave to be used with Amazon ECS plugin
+A Docker image for a jenkins slave with java build tools
