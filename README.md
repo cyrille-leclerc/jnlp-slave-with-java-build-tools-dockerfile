@@ -33,7 +33,7 @@ optional environment variables:
 # Docker image details
 
 -   OS: Ubuntu 15.04
--   Build tools installed on See [README](https://hub.docker.com/r/cloudbees/java-build-tools/).
+-   Build tools installed on [cloudbees/java-build-tools](https://hub.docker.com/r/cloudbees/java-build-tools/).
 -   Jenkins slave.jar (aka remoting.jar, 2.52)
 
 # Release Notes
