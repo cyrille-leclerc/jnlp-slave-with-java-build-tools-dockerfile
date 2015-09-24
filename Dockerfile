@@ -12,5 +12,5 @@ VOLUME /home/jenkins
 WORKDIR /home/jenkins
 USER jenkins
 
-ENTRYPOINT ["/usr/local/bin/jenkins-slave"]
+ENTRYPOINT ["/opt/bin/entry_point.sh", "/usr/local/bin/jenkins-slave"]
 
