@@ -45,5 +45,5 @@ else
 		URL="-url $JENKINS_URL"
 	fi
 
-	exec java $JAVA_OPTS -cp /usr/share/jenkins/slave.jar hudson.remoting.jnlp.Main -headless $TUNNEL $URL "$@"
+	exec java $JAVA_OPTS -Duser.home=/home/jenkins -cp /usr/share/jenkins/slave.jar hudson.remoting.jnlp.Main -headless $TUNNEL $URL "$@"
 fi	
