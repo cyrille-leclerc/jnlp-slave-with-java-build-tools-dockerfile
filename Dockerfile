@@ -8,7 +8,7 @@ RUN curl --create-dirs -sSLo /usr/share/jenkins/slave.jar http://repo.jenkins-ci
 
 COPY jenkins-slave /usr/local/bin/jenkins-slave
 
-VOLUME /home/jenkins
+RUN chmod a+rwx /home/jenkins
 WORKDIR /home/jenkins
 USER jenkins
 
