@@ -7,11 +7,12 @@ See [README](https://hub.docker.com/r/cloudbees/java-build-tools/) for details o
 # Supported tags and respective `Dockerfile` links
 
 -   [`latest` (*latest/Dockerfile*)](https://github.com/cloudbees/jnlp-slave-with-java-build-tools-dockerfile/blob/master/Dockerfile)
+-   [`0.0.5` (*0.0.5/Dockerfile*)](https://github.com/cloudbees/jnlp-slave-with-java-build-tools-dockerfile/blob/0.0.5/Dockerfile)
 -   [`0.0.2` (*0.0.2/Dockerfile*)](https://github.com/cloudbees/jnlp-slave-with-java-build-tools-dockerfile/blob/0.0.2/Dockerfile)
 
 # How to use this Docker image
 
-This Docker image is intended to be used in conjunction with a Docker container orchestration service such as 
+This Docker image is intended to be used in conjunction with a Docker container orchestration service such as
 -   Kubernetes (see [Jenkins Kubernetes Plugin](https://wiki.jenkins-ci.org/display/JENKINS/Kubernetes+Plugin))
 -   Mesos (see [Jenkins Mesos Plugin](https://wiki.jenkins-ci.org/display/JENKINS/Mesos+Plugin))
 -   Amazon EC2 Container Service
@@ -22,7 +23,7 @@ It can also be used "static" Jenkins slave connected to a Jenkins master declari
 
 To run a Docker container
 
-    docker run jenkinsci/jnlp-slave -url http://jenkins-server:port <secret> <slave name>
+    docker run cloudbees/jnlp-slave-with-java-build-tools -url http://jenkins-server:port <secret> <slave name>
 
 optional environment variables:
 
