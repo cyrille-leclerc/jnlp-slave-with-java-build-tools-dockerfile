@@ -7,6 +7,7 @@ See [README](https://hub.docker.com/r/cloudbees/java-build-tools/) for details o
 # Supported tags and respective `Dockerfile` links
 
 -   [`latest` (*latest/Dockerfile*)](https://github.com/cloudbees/jnlp-slave-with-java-build-tools-dockerfile/blob/master/Dockerfile)
+-   [`0.0.5.1` (*0.0.5.1/Dockerfile*)](https://github.com/cloudbees/jnlp-slave-with-java-build-tools-dockerfile/blob/0.0.5.1/Dockerfile)
 -   [`0.0.5` (*0.0.5/Dockerfile*)](https://github.com/cloudbees/jnlp-slave-with-java-build-tools-dockerfile/blob/0.0.5/Dockerfile)
 -   [`0.0.2` (*0.0.2/Dockerfile*)](https://github.com/cloudbees/jnlp-slave-with-java-build-tools-dockerfile/blob/0.0.2/Dockerfile)
 
@@ -35,7 +36,9 @@ optional environment variables:
 
 -   OS: Ubuntu 15.04
 -   Build tools installed on [cloudbees/java-build-tools](https://hub.docker.com/r/cloudbees/java-build-tools/).
--   Jenkins slave.jar (aka remoting.jar, 2.52)
+-   Jenkins slave.jar (aka remoting.jar)
+    - `0.0.5.1`: 2.53.2
+    - `0.0.5`: 2.53
 
 # Release Notes
 
