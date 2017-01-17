@@ -1,4 +1,4 @@
-FROM cloudbees/java-build-tools:1.0.1
+FROM cloudbees/java-build-tools
 
 USER root
 
