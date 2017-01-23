@@ -1,8 +1,8 @@
-FROM cloudbees/java-build-tools
+FROM cloudbees/java-build-tools:2.0.0
 
 USER root
 
-ARG JENKINS_REMOTING_VERSION=2.62.4
+ARG JENKINS_REMOTING_VERSION=3.4
 
 RUN curl --create-dirs -sSLo /usr/share/jenkins/slave.jar http://repo.jenkins-ci.org/public/org/jenkins-ci/main/remoting/$JENKINS_REMOTING_VERSION/remoting-$JENKINS_REMOTING_VERSION.jar \
   && chmod 755 /usr/share/jenkins \
