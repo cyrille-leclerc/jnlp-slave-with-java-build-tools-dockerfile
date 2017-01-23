@@ -105,7 +105,7 @@ optional environment variables:
 -   Selenium at `/opt/selenium/selenium-server-standalone.jar`: 2.53
 -   XVFB: 2:1.18.4
 
--   Jenkins slave.jar (aka remoting.jar) at `/usr/share/jenkins/slave.jar`: 2.62.4
+-   Jenkins slave.jar (aka remoting.jar) at `/usr/share/jenkins/slave.jar`: 3.4
 
 ## Version 2.0.0
 
@@ -133,7 +133,7 @@ optional environment variables:
 -   Selenium at `/opt/selenium/selenium-server-standalone.jar`: 2.53
 -   XVFB: 2:1.18.4
 
--   Jenkins slave.jar (aka remoting.jar): 2.62.4
+-   Jenkins slave.jar (aka remoting.jar): 3.4
 
 
 ## Version 1.0.1
